@@ -1,0 +1,7 @@
+name: bug_to_user_story_v1
+description: Um prompt simples para converter bugs em user stories.
+input_variables:
+  - bug_description
+template: |
+  Converta a seguinte descrição de bug em uma user story:
+  {bug_description}
